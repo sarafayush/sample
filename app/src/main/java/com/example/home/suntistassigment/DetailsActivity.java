@@ -5,6 +5,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.InputFilter;
 import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
@@ -53,6 +54,7 @@ public class DetailsActivity extends AppCompatActivity implements View.OnClickLi
         submit = (Button) findViewById(R.id.submit);
         contactListview = (ListView) findViewById(R.id.list);
         nameText.addTextChangedListener(mTextWatcher);
+        nameText.setFilters(new InputFilter[]{new InputFilter.AllCaps()});
         phoneText.addTextChangedListener(mTextWatcher);
         userItems = new ArrayList<>();
          adapter = new UserAdapter(this, userItems);
