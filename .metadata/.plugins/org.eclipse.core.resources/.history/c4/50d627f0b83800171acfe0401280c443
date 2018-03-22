@@ -1,0 +1,11 @@
+package com.example.ayush;
+
+ public class A {
+	
+	protected void doStuff(){
+		
+	}
+
+}
+
+

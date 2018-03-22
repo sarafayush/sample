@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SuntistAssigment</string>
+    <string name="name_placeholder">Enter your name</string>
+    <string name="phone_placeholder">Enter your telephone number</string>
+    <string name="facebook_app_id">1675998605821391</string>
+    <string name="fb_login_protocol_scheme">fb1675998605821391</string>
+
+</resources>

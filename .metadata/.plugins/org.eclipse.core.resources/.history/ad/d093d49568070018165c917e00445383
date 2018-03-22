@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Solution {
+	public static void main(String[] args) {
+		Scanner i = new Scanner(System.in);
+		int ip = i.nextInt();
+		System.out.println("entered value is:" +ip);
+		i.close();
+		
+	}
+
+}

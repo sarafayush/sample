@@ -1,0 +1,11 @@
+package com.example.anupam;
+
+import com.example.ayush.A;
+
+public class B extends A{
+	
+	public void doThings(){
+		doStuff();
+	}
+
+}
