@@ -66,6 +66,7 @@
         android:textColor="@color/blackcolor"
         android:hint="@string/name_placeholder"
         android:textColorHint="@color/greycolor"
+        android:textAllCaps="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -144,6 +145,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="3"
                     android:text="Name"
+                    android:textSize="@dimen/table_font"
                     android:textColor="@color/blackcolor"
                     android:gravity="center"/>
                 <TextView
@@ -151,12 +153,14 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:text="Tel"
+                    android:textSize="@dimen/table_font"
                     android:textColor="@color/blackcolor"
                     android:gravity="center"/>
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:textSize="@dimen/table_font"
                     android:text="Sex"
                     android:textColor="@color/blackcolor"
                     android:gravity="center"/>

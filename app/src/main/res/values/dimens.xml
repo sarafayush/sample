@@ -4,4 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="header_font">16dp</dimen>
     <dimen name="input_font">12dp</dimen>
+    <dimen name="table_font">10dp</dimen>
 </resources>
